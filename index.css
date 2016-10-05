@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    padding: 20px 10px;
+    font-size: 14px;
+    opacity: .5;
+    background-color: #000;
+}
+
+.menu li{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mark-item {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px dotted;
+    border-color: lightgray;
+}
+.mark-item a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.mark-time {
+    border-left: 4px solid red;
+    color: #888;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+.mark-content {
+    font-size: 14px;
+}
